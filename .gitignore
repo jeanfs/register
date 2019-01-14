@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+#styles
+.sass-cache
+.DS_Store
+/**/*.css
+
 # production
 /build
 
