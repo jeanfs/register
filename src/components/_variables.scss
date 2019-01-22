@@ -1,2 +1,9 @@
-$body-bg:               #f5f5f5;
-$body-color:            #666666;
+/**
+ * The $theme-colors variable in Bootstrap's variables file uses a map-merge() function
+ * so we the default colors can be overriten by using the following map:
+ */
+
+$theme-colors: (
+  primary: #63C4BB,
+  secondary: #F96C25
+);

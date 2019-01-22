@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 // Router
-import AppRouter from './router/router';
+import Router from './router/router';
 
 // Global styles
 import './App.scss';
@@ -15,7 +14,7 @@ class App extends Component {
         {/* main wrapper */}
         <main className="main">
 
-          <AppRouter />
+          <Router />
 
         </main>
         {/* \ main wrapper */}

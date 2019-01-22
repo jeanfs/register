@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 // Redux
 import { createStore, compose } from 'redux';
 import { Provider } from 'react-redux';
-import rootReducers from './redux/reducers';
+import { Reducers } from './reducers';
 
 // App
 import App from './App';
@@ -14,7 +14,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-let store = createStore(rootReducers, {}, composeEnhancers());
+let store = createStore(Reducers, {}, composeEnhancers());
 
 ReactDOM.render(
     <Provider store={store}>
