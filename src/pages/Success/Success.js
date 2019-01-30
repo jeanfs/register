@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 
+// Reactstrap components
+import { Container, Row, Col, Button } from 'reactstrap';
+
 class Success extends Component {
 	render() {
 		return (
-			<div>
-                <h1>Success</h1>
-            </div>
+			<Container>
+				<Row>
+					<Col>
+                		<h1>Success</h1>
+					</Col>
+				</Row>
+			</Container>
 		)
 	}
 }
