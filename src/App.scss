@@ -6,6 +6,13 @@
 
 
 /**
+ * Components and base styles
+ */
+
+@import 'components/_main.scss';
+
+
+/**
  * Bootstrap 4 styles
  */
 @import 'node_modules/bootstrap/scss/bootstrap.scss';

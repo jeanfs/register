@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 // Router
 import Router from './router/router';
 
+// Reactstrap components
+import { Container } from 'reactstrap';
+
 // Global styles
 import './App.scss';
 
@@ -14,7 +17,13 @@ class App extends Component {
         {/* main wrapper */}
         <main className="main">
 
-          <Router />
+          {/* main container */}
+          <Container>
+
+            <Router />
+
+          </Container>
+          {/* \ main container */}
 
         </main>
         {/* \ main wrapper */}
